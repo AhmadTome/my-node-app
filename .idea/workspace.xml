@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="95edf05a-cd71-4442-a6ed-be1a0edc9858" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1tyvdVniVBqSS6PLEnBRRNromhb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PhpstormProjects/my-react-app" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RunManager">
+    <configuration name="debug" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="debug" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.debug" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="95edf05a-cd71-4442-a6ed-be1a0edc9858" name="Default Changelist" comment="" />
+      <created>1623754230670</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623754230670</updated>
+      <workItem from="1623754231728" duration="2565000" />
+      <workItem from="1623826763332" duration="14280000" />
+      <workItem from="1626336030486" duration="1987000" />
+      <workItem from="1629800585988" duration="1615000" />
+      <workItem from="1629804121222" duration="617000" />
+      <workItem from="1629881435929" duration="1592000" />
+      <workItem from="1629966085682" duration="1765000" />
+      <workItem from="1630223388096" duration="11000" />
+      <workItem from="1630223672458" duration="19925000" />
+      <workItem from="1630329900012" duration="2784000" />
+      <workItem from="1630398920331" duration="1835000" />
+      <workItem from="1630493242072" duration="5781000" />
+      <workItem from="1631429505847" duration="11678000" />
+      <workItem from="1631515371951" duration="3007000" />
+      <workItem from="1631520109370" duration="208000" />
+      <workItem from="1631520368261" duration="6510000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="651" y="169" key="FileChooserDialogImpl" timestamp="1631520117878">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="651" y="169" key="FileChooserDialogImpl/-1366.303.1366.728/0.0.1920.1040/1920.-301.1680.1010@0.0.1920.1040" timestamp="1631520117878" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1623914183525" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1630329883889" />
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1630330909097">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1623832654968" />
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1630330909097" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1630330909096">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1623832654967" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1630330909096" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1630330909096">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1623832654967" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1630330909096" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1630330909096">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1623832654967" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1630330909096" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1631430728784">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/-1366.303.1366.728/0.0.1920.1040/1920.-301.1680.1010@0.0.1920.1040" timestamp="1631430728784" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1630493517979">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/-1366.303.1366.728/0.0.1920.1040/1920.-301.1680.1010@0.0.1920.1040" timestamp="1630493517979" />
+    <state x="389" y="97" width="587" height="534" key="find.popup" timestamp="1630225820157">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="389" y="97" width="587" height="534" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1630225820157" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1623849261005">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1623849261005" />
+    <state x="346" y="49" key="search.everywhere.popup" timestamp="1630325598473">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1630325598473" />
+  </component>
+</project>
