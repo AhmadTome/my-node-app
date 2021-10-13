@@ -25,6 +25,17 @@ const reserveBook = new mongoose.Schema({
     },
     purchaseDate: {
         type: Date
+    },
+    TotalPrice: {
+        type: Number
+    },
+    buyer_name: {
+        type: String,
+        DEFAULT: "ADMIN"
+    },
+    action: {
+        type: String,
+        DEFAULT: "TOB"
     }
 });
 

@@ -26,18 +26,18 @@ const UserModule = require('../controllers/userController.js');
 const PublisherModule = require('../controllers/publisherController')
 const AuthorModule = require('../controllers/authorsController')
 const BookModule = require('../controllers/bookController')
+const fileManagerModule = require('../controllers/fileManager')
+const v = require('../validation/validation');
+
 //router.use(bodyParser.urlencoded({ extended: true }));
 router.use(cors());
 router.use(bodyParser.json());
-
-
-
 
 /* GET home page. */
 router
     .post('/users', UserModule.addUser)
     .post('/publishers', PublisherModule.addPublisher)
-    .post('/authors', AuthorModule.addAuthors)
+    .post('/authors', v.AddAuthor, AuthorModule.addAuthors)
     .post('/books', upload.single('file'), BookModule.addBook)
     .get('/publishers', PublisherModule.getPublishers)
     .get('/authors', AuthorModule.getAuthors)
@@ -45,5 +45,13 @@ router
     .get('/books/search', BookModule.search)
     .get('/books/:id', BookModule.getBook)
     .post('/books/:id/reserve', BookModule.reserveBook)
+    .get('/Purchase/search', BookModule.getPurchased)
+    .post('/book/template', BookModule.dowmloadTemplate)
+    .post('/book/bulk-insert', upload.single('file'), BookModule.bulk_insert)
+    .post('/files/upload', upload.array('files', 10), fileManagerModule.uploadFiles)
+    .get('/files', fileManagerModule.getFiles)
+
+
+
 
 module.exports = router;

@@ -23,10 +23,10 @@ const book = new mongoose.Schema({
         type: Array
     },
     AvailableUnit: {
-        type: String
+        type: Number
     },
     UnitPrice: {
-        type: String
+        type: Number
     },
     filePath: {
         type: String
