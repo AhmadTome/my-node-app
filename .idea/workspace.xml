@@ -19,21 +19,52 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="95edf05a-cd71-4442-a6ed-be1a0edc9858" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DB/fileManager.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/fileManager.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/validation/validation.js" afterDir="false" />
+    <list default="true" id="95edf05a-cd71-4442-a6ed-be1a0edc9858" name="Default Changelist" comment="upload all changes">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DB/BookReservations.js" beforeDir="false" afterPath="$PROJECT_DIR$/DB/BookReservations.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DB/Books.js" beforeDir="false" afterPath="$PROJECT_DIR$/DB/Books.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DB/Users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DB/connection.js" beforeDir="false" afterPath="$PROJECT_DIR$/DB/connection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/authorsController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/authorsController.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/bookController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/bookController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/fileManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/fileManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/publisherController.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/publisherController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/userController.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-align/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ansi-align/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-align/node_modules/string-width/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-align/node_modules/string-width/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-align/node_modules/string-width/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-align/node_modules/string-width/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-align/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ansi-align/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-regex/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ansi-regex/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-regex/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ansi-regex/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi-regex/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ansi-regex/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/emoji-regex/LICENSE-MIT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/emoji-regex/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/emoji-regex/es2015/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/emoji-regex/es2015/text.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/emoji-regex/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/emoji-regex/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/emoji-regex/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/emoji-regex/text.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-fullwidth-code-point/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-fullwidth-code-point/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-fullwidth-code-point/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-fullwidth-code-point/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/string-width/node_modules/ansi-regex/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/string-width/node_modules/ansi-regex/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/string-width/node_modules/ansi-regex/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/string-width/node_modules/ansi-regex/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/string-width/node_modules/ansi-regex/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/strip-ansi/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/strip-ansi/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/strip-ansi/license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/strip-ansi/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/strip-ansi/readme.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uploads/1630308496406 -- ethar-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation/validation.js" beforeDir="false" afterPath="$PROJECT_DIR$/validation/validation.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +89,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PhpstormProjects/my-react-app" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
@@ -118,8 +149,22 @@
       <workItem from="1632814140309" duration="7378000" />
       <workItem from="1633414993146" duration="7770000" />
       <workItem from="1633506600883" duration="5299000" />
-      <workItem from="1634123035213" duration="607000" />
+      <workItem from="1634123035213" duration="1209000" />
+      <workItem from="1634215903068" duration="14000" />
+      <workItem from="1634456527791" duration="1226000" />
+      <workItem from="1635059829073" duration="140000" />
+      <workItem from="1635065739597" duration="736000" />
+      <workItem from="1635147660850" duration="1239000" />
+      <workItem from="1635407045722" duration="4008000" />
     </task>
+    <task id="LOCAL-00001" summary="upload all changes">
+      <created>1634130028282</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1634130028282</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,12 +182,20 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="upload all changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="upload all changes" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="-903" y="223" key="FileChooserDialogImpl" timestamp="1633506622667">
-      <screen x="-1366" y="105" width="1366" height="728" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1635408257519">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1366.105.1366.728/0.0.1920.1040/1920.-301.1680.1010@0.0.1920.1040" timestamp="1635408257519" />
+    <state x="651" y="169" key="FileChooserDialogImpl" timestamp="1635408749578">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-903" y="223" key="FileChooserDialogImpl/-1366.105.1366.728/0.0.1920.1040/1920.-301.1680.1010@-1366.105.1366.728" timestamp="1633506622667" />
-    <state x="651" y="169" key="FileChooserDialogImpl/-1366.105.1366.728/0.0.1920.1040/1920.-301.1680.1010@0.0.1920.1040" timestamp="1633417749985" />
+    <state x="651" y="169" key="FileChooserDialogImpl/-1366.105.1366.728/0.0.1920.1040/1920.-301.1680.1010@0.0.1920.1040" timestamp="1635408749578" />
     <state x="651" y="169" key="FileChooserDialogImpl/-1366.303.1366.728/0.0.1920.1040/1920.-301.1680.1010@0.0.1920.1040" timestamp="1631538873583" />
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1630329883889" />
     <state width="1899" height="348" key="GridCell.Tab.0.bottom" timestamp="1632831521407">
@@ -217,17 +270,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/-1366.303.1366.728/0.0.1920.1040/1920.-301.1680.1010@0.0.1920.1040" timestamp="1631430728784" />
+    <state x="-1091" y="201" key="Vcs.Push.Dialog.v2" timestamp="1634130031748">
+      <screen x="-1366" y="105" width="1366" height="728" />
+    </state>
+    <state x="-1091" y="201" key="Vcs.Push.Dialog.v2/-1366.105.1366.728/0.0.1920.1040/1920.-301.1680.1010@-1366.105.1366.728" timestamp="1634130031748" />
     <state x="695" y="162" width="1236" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1633520564942">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="695" y="162" width="1236" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog/-1366.105.1366.728/0.0.1920.1040/1920.-301.1680.1010@-1366.105.1366.728" timestamp="1633520564942" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/-1366.105.1366.728/0.0.1920.1040/1920.-301.1680.1010@0.0.1920.1040" timestamp="1632729074929" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/-1366.303.1366.728/0.0.1920.1040/1920.-301.1680.1010@0.0.1920.1040" timestamp="1630493517979" />
-    <state x="-977" y="105" width="587" height="728" key="find.popup" timestamp="1633437992583">
-      <screen x="-1366" y="105" width="1366" height="728" />
+    <state x="547" y="139" width="826" height="763" key="find.popup" timestamp="1635410233861">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-977" y="105" width="587" height="728" key="find.popup/-1366.105.1366.728/0.0.1920.1040/1920.-301.1680.1010@-1366.105.1366.728" timestamp="1633437992583" />
-    <state x="389" y="97" width="587" height="534" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1630225820157" />
+    <state x="547" y="139" width="826" height="763" key="find.popup/-1366.105.1366.728/0.0.1920.1040/1920.-301.1680.1010@0.0.1920.1040" timestamp="1635410233861" />
+    <state x="389" y="97" width="587" height="534" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1635065836354" />
     <state x="346" y="49" key="search.everywhere.popup" timestamp="1630325598473">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

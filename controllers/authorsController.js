@@ -8,14 +8,18 @@ const addAuthors = async (req, res) => {
     }
 
     let authorModel = new Author(req.body);
-    await authorModel.save();
+    try{
+        await authorModel.save();
+    } catch (err){
+        console.log(e)
+    }
     res.json(authorModel);
 }
 
 const getAuthors = (req, res) => {
     Author.find({}, function(err, result) {
         if (err) {
-            res.json(err);
+            res.status(500).json(err);
         } else {
             res.json(result);
         }

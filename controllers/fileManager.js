@@ -1,18 +1,29 @@
 const fileManagerModel = require('../DB/fileManager');
 
 const uploadFiles = async (req, res) => {
-    const files = req.files;
-    await fileManagerModel.collection.insertMany(files);
+    if (req.files) {
+        const files = req.files;
+        try {
+            await fileManagerModel.collection.insertMany(files);
+        } catch (e) {
+            console.log(e)
+        }
 
-    res.json({
-        result: files
-    })
+        res.json({
+            result: files
+        })
+    } else {
+        res.status(422).json({
+            result: "Please Upload files"
+        })
+    }
+
 }
 
 const getFiles = (req, res) => {
     fileManagerModel.find({}, function(err, result) {
         if (err) {
-            res.json(err);
+            res.status(500).json(err);
         } else {
             res.json(result);
         }

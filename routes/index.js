@@ -22,7 +22,6 @@ connectDB();
 // var app = express();
 // app.use(cors());
 var router = express.Router();
-const UserModule = require('../controllers/userController.js');
 const PublisherModule = require('../controllers/publisherController')
 const AuthorModule = require('../controllers/authorsController')
 const BookModule = require('../controllers/bookController')
@@ -35,7 +34,6 @@ router.use(bodyParser.json());
 
 /* GET home page. */
 router
-    .post('/users', UserModule.addUser)
     .post('/publishers', PublisherModule.addPublisher)
     .post('/authors', v.AddAuthor, AuthorModule.addAuthors)
     .post('/books', upload.single('file'), BookModule.addBook)

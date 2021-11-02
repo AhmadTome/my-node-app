@@ -30,7 +30,12 @@ const addBook = async (req, res) => {
 
     const bookInfo = {...req.body, filePath, BookTags, author, publisher};
     let bookModel = new Book(bookInfo);
-    await bookModel.save();
+    try{
+        await bookModel.save();
+    }catch (err){
+        console.log(e)
+
+    }
     res.json(bookModel);
 }
 
@@ -197,7 +202,6 @@ const search = (req, res) => {
 
         aggregateArray.push(pagination);
         Book.aggregate(aggregateArray).exec((err, result) => {
-            console.log(err)
             res.json({
                 'result': result,
                 //total_record: result[0]['edges'].length
@@ -217,12 +221,16 @@ const reserveBook = async (req, res) => {
     delete req.body._id;
     const reserveInfo = {...req.body, BookId};
     let ReserveBookModel = new ReserveBook(reserveInfo);
-    await ReserveBookModel.save();
+    try{
+        await ReserveBookModel.save();
+    }catch (err){
+        console.log(e)
+
+    }
 
     const numberOfUnit = parseInt(req.body.numberOfUnit);
     const book = Book.find({_id: _id}).exec((err, result) => {
         const availableUnit = parseInt(result[0].AvailableUnit);
-        console.log((availableUnit - numberOfUnit))
         Book.findByIdAndUpdate({_id},{AvailableUnit: (availableUnit - numberOfUnit)}).exec((err, result) => {
             res.json(ReserveBookModel);
         });
@@ -316,7 +324,6 @@ const getPurchased = (req, res)=> {
 
         aggregateArray.push(pagination);
         ReserveBook.aggregate(aggregateArray).exec((err, result) => {
-            console.log(err)
             res.json({
                 'result': result,
                 //total_record: result[0]['edges'].length
